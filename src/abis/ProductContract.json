@@ -1,0 +1,140 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_franchisee",
+        "type": "address"
+      }
+    ],
+    "name": "getProductsByFranchisee",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "imageUrl",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct ProductContract.Product[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_manufacturer",
+        "type": "address"
+      }
+    ],
+    "name": "getProductsByManufacturer",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "imageUrl",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct ProductContract.Product[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "productsByFranchisee",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "imageUrl",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "productsByManufacturer",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "imageUrl",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_imageUrl",
+        "type": "string"
+      }
+    ],
+    "name": "publishProduct",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
